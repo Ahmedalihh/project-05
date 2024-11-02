@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <center>
+    <h1>Forms Practice</h1>
+  </center>
+  <body>
+    <h1>Forms In HTML</h1>
+    <form
+      action=""
+      method="get"
+      accept-charset="UTF-8"
+      autocomplete="off"
+      enctype="text/plain"
+    >
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        placeholder="First Name"
+        name=""
+        value="ahmed ali"
+        id="fname"
+      />
+      <input type="week" name="" id="" />
+      <input type="reset" value="reset" />
+      <select name="editor" id="multiple">
+        <option value="vscode">vscode</option>
+        <option value="subline">subline</option>
+      </select>
+      <input list="editor" name="editor" />
+      <datalist id="editor">
+        <option value="vscode">vscode</option>
+        <option value="subline">subline</option>
+      </datalist>
+      <h1>Audio setting</h1>
+      <input type="range" id="volume" name="volume" min="0" max="10" />
+      <label for="volume">volume</label><br />
+      <input
+        type="range"
+        id="cowbell"
+        name="cowbell"
+        min="0"
+        max="100"
+        value="90"
+        step="10"
+      />
+      <label for="cowbell">cowbell</label>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
